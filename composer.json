@@ -1,0 +1,20 @@
+{
+    "name": "giannakosian/coding-test-php",
+    "authors": [
+        {
+            "name": "Vangelis Giannakosian",
+            "email": "e.giannakosian@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": [
+            "src/helpers/basic_helpers.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {}
+}
